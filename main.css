@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding-top: 70px; /* Atstarpe zem fiksētās galvenes */
   line-height: 1.6;
+  text-align: center;
 }
 
 /* Galvene (header) fiksēta augšā */
