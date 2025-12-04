@@ -1,0 +1,102 @@
+/* Vispārīgais */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #0073e6;
+  color: white;
+  padding: 20px 10%;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 8px;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Navigācija */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #005bb5;
+}
+
+/* Main saturs */
+main {
+  padding: 40px 10%;
+  background: white;
+  max-width: 900px;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+}
+
+main h2 {
+  color: #0073e6;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #0073e6;
+  padding-bottom: 5px;
+}
+
+main h3 {
+  margin-top: 30px;
+  color: #005bb5;
+}
+
+.no-style {
+  list-style: none;
+  padding-left: 0;
+}
+
+.no-style li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1.05rem;
+}
+
+.no-style li strong {
+  color: #004080;
+}
+
+/* Footer */
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px 10%;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
